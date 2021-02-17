@@ -1,0 +1,10 @@
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'red'">Red color</div>
+  <div *ngSwitchCase="'blue'">Blue color</div>
+  <div *ngSwitchCase="'green'">Green color</div>
+  <div *ngSwitchDefault="'blue'">Default color</div>
+</div>
+
+<div *ngFor = "let fruit of fruits; index as i">
+  <h4>{{i+1}} {{fruit}}</h4>
+</div>
